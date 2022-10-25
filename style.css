@@ -1,50 +1,74 @@
-.minhalista {
-     color: whitesmoke;
-     font-size: 30;
+.cabecalho {
+    border-bottom-style: solid;
+    background: greenyellow;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding: 1px;
 }
 
+#cabecalho2 {
+    color: blue;
+    text-align: center;
+}
+
+.rodape {
+    border-top-style: solid;
+    background: greenyellow;
+    margin-bottom: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding: 1px;
+}
+
+#rodape2 {
+    color: blue;
+    text-align: center;
+}
 
 .lista {
-    background: black;
+   font-size: 30;
+   color:red;
 }
 
 .imagens {
-     text-align: center;
-     background: black;
+   text-align: center;
+   Background: whitesmoke;
 }
 
-.lista {
-   color: whitesmoke;
-   font-size: 30;
-}
-
-#imagem {
-    text-align: center;
+#destaque {
     border: 5px;
-    border-style: solid;
+    border-style: deshed;
     border-color: blue;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
+    border-top-left-radius: 500px;
+    border-top-right-radius: 500px;
+    border-bottom-left-radius: 500px;
+    border-bottom-right-radius: 500px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 500px;
+    margin-right: 500px;
+    background: yellow;
 }
 
 #link {
-    text-align: center;
+   text-align: center;
 }
 
 p {
-    color: red;
-    font-size: 30;
-    text-align: right;
+   color: red;
+   font-size: 30;
+   text-align: left; 
 }
 
 h1 {
     color: blue;
-    text-align: center;
     font-size: 50;
+    text-align: center;
 }
 
 h2 {
     color: green;
-    text-align: left;
     font-size: 40;
+    text-align: right;
 }
