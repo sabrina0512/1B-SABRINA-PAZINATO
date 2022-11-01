@@ -1,74 +1,84 @@
-.cabecalho {
-    border-bottom-style: solid;
-    background: greenyellow;
-    margin-top: -8px;
-    margin-left: -8px;
-    margin-right: -8px;
-    padding: 1px;
+.minhalista {
+    color:whitesmoke;
+    font-size: 30;
 }
 
-#cabecalho2 {
-    color: blue;
+#menu {
     text-align: center;
+    font-size: 30px;
 }
 
-.rodape {
-    border-top-style: solid;
-    background: greenyellow;
-    margin-bottom: -8px;
-    margin-left: -8px;
-    margin-right: -8px;
-    padding: 1px;
+#lateral {
+    float: right;
 }
 
-#rodape2 {
-    color: blue;
-    text-align: center;
-}
-
-.lista {
-   font-size: 30;
-   color:red;
+.listas {
+    background: black;
 }
 
 .imagens {
-   text-align: center;
-   Background: whitesmoke;
+    text-align: center;
+    background: whitesmoke;
 }
 
-#destaque {
+#cabecalho {
+    text-align: center;
+    background: greenyellow;
+    border-bottom-style: solid;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
+    padding: 1px;
+}
+
+.rodape {
+    text-align: center;
+    background: greenyellow;
+    border-top-style: solid;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -30px;
+    padding: 1px;
+}
+
+.lista {
+    color: whitesmoke;
+    font-size: 30;
+}
+
+#imagem {
+    text-align: center;
     border: 5px;
-    border-style: deshed;
+    border-style: solid;
     border-color: blue;
-    border-top-left-radius: 500px;
-    border-top-right-radius: 500px;
-    border-bottom-left-radius: 500px;
-    border-bottom-right-radius: 500px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin-left: 500px;
-    margin-right: 500px;
-    background: yellow;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 570px;
+    margin-right: 570px;
 }
 
 #link {
-   text-align: center;
+    text-align: center;
 }
 
 p {
-   color: red;
-   font-size: 30;
-   text-align: left; 
+    color: red;
+    font-size: 30;
+
 }
 
 h1 {
     color: blue;
-    font-size: 50;
     text-align: center;
+    font-size: 50;
 }
 
 h2 {
     color: green;
+    text-align: left;
     font-size: 40;
-    text-align: right;
 }
